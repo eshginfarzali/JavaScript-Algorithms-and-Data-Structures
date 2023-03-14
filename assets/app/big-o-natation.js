@@ -1,13 +1,13 @@
-  function summation(n){
+  function summation(){
     let sum =0;
     
-    for(let i=1; i<=n; i++){
+    for(let i=1; i<=10; i++){
         sum+=i
-        // console.log(sum );
+        console.log(sum );
     }
     return sum;
     
   }
   
-  summation(10)
+  summation()
  
